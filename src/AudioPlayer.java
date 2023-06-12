@@ -9,9 +9,10 @@ public class AudioPlayer implements MediaPlayer {
         } else if (audioType.equalsIgnoreCase("vlc")) {
             mediaAdapter = new MediaAdapter(audioType);
             mediaAdapter.play(fileName, audioType);
-        } else {
-            System.out.println("Invalid media. " + audioType + " format not supported");
-        }
+            //deze code is niet nodig. We controleren de invalid media in Mediaadapter klas.
+       // } else {
+      //      System.out.println("Invalid media. " + audioType + " format not supported");
+       // }
     }
 }
 
