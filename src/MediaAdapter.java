@@ -9,8 +9,9 @@ public class MediaAdapter implements MediaPlayer {
             case "mp4":
                 advancedMusicPlayer = new Mp4Player();
                 break;
-            default:
-                System.out.println("Invalid audio type: " + audioType);
+                //Deze code is nodig. Je controleert in de play methode.
+           // default:
+            //    System.out.println("Invalid audio type: " + audioType);
         }
 
         }
