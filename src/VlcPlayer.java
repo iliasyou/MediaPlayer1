@@ -1,9 +1,10 @@
 public class VlcPlayer implements  AdvancedMediaPlayer {
     @Override
     public void playVlc(String fileName) {
-        if (fileName.equalsIgnoreCase("Vlc")) {
+        //Deze code is niet nodig. De doel van deze methode is om vlc te spelen. Je hoeft niet te controleren.
+        //if (fileName.equalsIgnoreCase("Vlc")) {
 
-        }
+        //}
         System.out.println("Playing vlc file.name : " + fileName);
 
     }
